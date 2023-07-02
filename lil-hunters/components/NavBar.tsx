@@ -1,3 +1,5 @@
+import { Button } from "./ui/button";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,6 +16,8 @@ const NavBar = () => {
             className="object-contain"
           />
         </Link>
+
+        <Button name="Login" />
       </nav>
     </header>
   );
