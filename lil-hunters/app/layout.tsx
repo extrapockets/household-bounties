@@ -1,7 +1,5 @@
+import NavBar from "@/components/NavBar";
 import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Lil Bounty Hunters",
@@ -15,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="relative">
+        <NavBar />
+        {children}
+      </body>
     </html>
   );
 }
