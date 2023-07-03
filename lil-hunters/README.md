@@ -1,3 +1,19 @@
+# household-bounties
+
+A family-friendly to-do list that pays out in sats!
+
+Tech Stack:
+
+- NextJS (JavaScript)
+- Tailwind CSS
+- ZBD API (for LN connectivity)
+- Nostr (authenitcation, in-app communications)
+
+Goal:
+We wanted to build a simple but powerful app that can be used to introduce friends and family to bitcoin by allowing them to earn money for completing household tasks.
+
+> One user will function as an "admin" - they will be in charge of topping up the application with sats. Other users will function as "doers", although the admin can complete tasks, too.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
