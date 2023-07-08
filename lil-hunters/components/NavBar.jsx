@@ -11,7 +11,7 @@ const NavBar = () => {
             alt="app logo"
             width={50}
             height={50}
-            className="object-contain bg-orange-400"
+            className="object-contain bg-orange-400 rounded-sm"
           />
         </Link>
       </nav>
