@@ -22,17 +22,20 @@ const NavBar = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Sign Up!</a>
+              <a>Sign Up / Login</a>
             </li>
             <li>
               <details>
-                <summary>Login</summary>
+                <summary>Bounties</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a>Maker</a>
+                    <a>Add</a>
                   </li>
                   <li>
-                    <a>Hunter</a>
+                    <a>Edit</a>
+                  </li>
+                  <li>
+                    <a>Delete</a>
                   </li>
                 </ul>
               </details>
