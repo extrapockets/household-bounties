@@ -4,12 +4,33 @@ import React from "react";
 
 const TaskCard = () => {
   return (
-    <div className="flex px-5 space-x-4 card bg-slate-600 rounded-box place-items-center">
-      <div className="space-x-4">
-        <p className="flex flex-col text-lg font-semibold">Task Title</p>
-      </div>
-      <div>
-        <p className="text-sm">[amount]sats</p>
+    <div className="px-5 space-x-4 card bg-slate-800 rounded-box place-items-center">
+      <div className="flex m-4">
+        <div className="flex-grow m-4">
+          <p className="text-md font-semibold">Task Title</p>
+        </div>
+        <div className="flex-grow m-4">
+          <p className="text-sm">[amount]sats</p>
+        </div>
+        <input
+          type="text"
+          placeholder="Enter post URL here..."
+          className="input input-bordered input-sm w-full max-w-xs m-4"
+        />
+        <div className="flex-grow m-4">
+          <input
+            type="checkbox"
+            checked="checked"
+            className="checkbox form-control"
+          />
+        </div>
+        <div className="flex-grow m-4">
+          <input
+            type="checkbox"
+            checked="checked"
+            className="checkbox form-control"
+          />
+        </div>
       </div>
     </div>
   );
