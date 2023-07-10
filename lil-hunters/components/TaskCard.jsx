@@ -4,7 +4,7 @@ import React from "react";
 
 const TaskCard = () => {
   return (
-    <div className="px-5 space-x-4 card bg-slate-800 rounded-box place-items-center">
+    <div className="px-5 space-x-4 card bg-slate-800 rounded-box">
       <div className="flex flex-grow justify-evenly px-4">
         <div>
           <p className="text-md font-semibold">Task Title</p>
@@ -13,7 +13,7 @@ const TaskCard = () => {
           </div>
         </div>
         <div>
-          <p className="text-sm">[amount]sats</p>
+          <p className="text-sm ">[amount]sats</p>
         </div>
         <input
           type="text"
