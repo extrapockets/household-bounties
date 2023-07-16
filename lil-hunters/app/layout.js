@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="relative">
+      <body className="relative gap-2">
         <NavBar />
         {children}
       </body>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <header className="w-full absolute z-10">
+    <header className="w-full absolute z-10 gap-6">
       <div className="navbar bg-base-100">
         <Link href="/" className="flex justify-center items-center">
           <Image
