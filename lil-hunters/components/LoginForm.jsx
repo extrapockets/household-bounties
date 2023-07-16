@@ -6,10 +6,10 @@ const LoginForm = () => {
   return (
     <section className="w-full max-w-full flex-start flex-col">
       <h1 className="text-2xl font-bold text-fuchsia-600 text-center">Login</h1>
-      <h2 className="text-md font-semibold text-fuchsia-200 text-center">
+      <h2 className="text-md font-semibold text-fuchsia-200 text-center p-2">
         Use your Nostr profile credentials to login below.
       </h2>
-      <p className="text-sm font-medium text-fuchsia-50">
+      <p className="text-sm font-medium text-fuchsia-50 p-2">
         If you don't have a Nostr profile, you can make one on these clients:
       </p>
       <div className="grid gap-y-4 py-4">
