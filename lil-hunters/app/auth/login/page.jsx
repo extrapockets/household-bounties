@@ -4,7 +4,7 @@ import LoginForm from "@/components/LoginForm";
 const page = () => {
   return (
     <div className="grid grid-cols-1 gap-4 content-evenly">
-      <div className="flex alert alert-info ">
+      <div className="flex py-10 mt-10 alert alert-info ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
