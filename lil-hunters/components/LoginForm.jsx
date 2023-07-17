@@ -32,6 +32,14 @@ const LoginForm = () => {
           🤖 iris (android)
         </Link>
       </div>
+
+      <div className="text-md font-semibold text-fuchsia-200 text-center p-8">
+        Enter your npub, or NIP-05 identifier:
+        <div class="join">
+          <input class="input input-bordered join-item" placeholder="npub..." />
+          <button class="btn join-item rounded-r-full">Login</button>
+        </div>
+      </div>
     </section>
   );
 };
