@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* created attribute "on-navbar" for more visible text */
+.on-navbar {
+  color: rgb(247, 141, 12);
+}
