@@ -2,17 +2,45 @@
 
 A family-friendly to-do list that pays out in sats!
 
-Tech Stack:
+<strong>Tech Stack:</strong>
 
 - NextJS (JavaScript)
 - Tailwind CSS
 - ZBD API (for LN connectivity)
 - Nostr (authenitcation, in-app communications)
 
-Goal:
-We wanted to build a simple but powerful app that can be used to introduce friends and family to bitcoin by allowing them to earn money for completing household tasks.
+<strong>Goal:</strong> <br><br>
+We wanted to build a simple but powerful app that can be used to introduce friends and family to bitcoin by allowing them to    earn money for completing household tasks.
 
 > One user will function as an "admin" - they will be in charge of topping up the application with sats. Other users will function as "doers", although the admin can complete tasks, too.
+
+<strong>Proposed flow for app:</strong>
+- Authentication page: (email, LNauth or NIP-42 auth)
+- Navigation page: list of different groups you are in
+	- Create new group
+	- Delete group (are you sure? requires auth)
+		- note: each group could have a 'bubble' (signifying this group requires action)
+- Group page:
+	- 'Tasks' Tab
+		- List of clickable to-do tasks with options:
+			- Mark Task completed > provide evidence via photo or text
+			- Remind: nudge a task and notify all tagged users
+			- Delete task (are you sure? dialog. admin only)
+		- Create new task
+			1) name task
+			2) tag users who can complete
+			3) expiration date/time for task
+			4) set bounty in sats (payout when completed)
+			5) repeat task? weekly, etc
+			6) confirm (lock funds until task is completed or deleted?)
+		- Reuse Task (from list of completed tasks)
+		- See history
+			- completed/deleted/expired tasks tab
+			- payment history
+	- 'Chat' Tab
+	- 'Leaderboard' Tab
+- Help page (link to help page on website)
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
